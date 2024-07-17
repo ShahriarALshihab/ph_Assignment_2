@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+body{
+    margin:0px; 
+    padding:0px;  
+   box-sizing: border-box;
+   background-color: rgba(0,0,0);
+}
+
+/* ----header section start here----- */
+
+header{
+    width: 100%;
+    height: 815px;
+    background-color:rgba(0,0,0,0.85); 
+}
+
+nav{
+    width: 85%;
+    height: 55px;
+    margin:auto; 
+    margin-top: 33px;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    height: 50px;
+}
+
+nav li{
+    list-style: none;
+    margin:5px 10px; 
+}
+
+nav a{
+    height: 100%;
+    text-decoration: none; 
+    padding:10px 23px; 
+    color:white; 
+}
+
+nav li:nth-child(1){
+    margin-right: auto;
+}
+
+#logo{
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 36px;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+#home-btn{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+}
