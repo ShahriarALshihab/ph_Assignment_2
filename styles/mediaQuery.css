@@ -1,0 +1,10 @@
+@media only screen and (max-width:576px){
+    nav {
+        display: none;
+    }
+   #menu-icon{
+        display:flex;
+    }
+
+}
+
