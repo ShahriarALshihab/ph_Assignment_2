@@ -14,6 +14,7 @@
     "slnt" 0;
 }
 body{
+    color:#fff; 
     margin:0px; 
     padding:0px;  
    box-sizing: border-box;
@@ -25,7 +26,8 @@ background: #000;
 header{
     width: 100%;
     height: 815px;
-    background: linear-gradient(180.00deg, rgb(3, 0, 0),rgba(39, 37, 37, 0.795) 70%);
+   background: linear-gradient(to bottom, black, rgba(32, 32, 32, 0) 30%, rgb(12, 12, 12));
+
     color:#fff; 
 }
 
@@ -169,3 +171,105 @@ top: 268px;
 
 /* header section end  */
 
+
+
+/* main section start  */
+
+.change-section{
+width: 1200px;
+height: 555px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+margin-left: 200px;
+margin-right: 200px;
+}
+
+.change-habits{
+width:490px; 
+height: 65px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+margin: 0px 0px 35px 250px; 
+}
+
+.change-habits-subtitle{
+width: 680px;
+height: 55px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: center;
+margin: 0px 0px 50px 250px;
+}
+
+.change-card{
+width: 1250px;
+height: 290px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+margin: 0px 0px 50px 300px;
+}
+
+.change-img{
+width: 272px;
+height: 180px;
+padding-left: 33.5px;
+top: 0;
+
+}
+
+.change-img img{
+    border: 0px solid #000;
+border-radius: 50%;
+}
+
+.change-img-title{
+    width: 133px;
+height: 22px;
+margin: 6px 0px 15px 30px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 120%;
+letter-spacing: 0%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding-left: 29px;
+}
+
+.change-img-subtitle{
+width: 290px;
+height: 36px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.3px;
+text-align: center;
+margin: 5px 60px 0px 0px;
+padding: 0px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding-right: 0px;
+
+}
