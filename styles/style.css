@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 
 
 .inter-font {
@@ -15,7 +17,7 @@ body{
     margin:0px; 
     padding:0px;  
    box-sizing: border-box;
-   background-color: rgba(0,0,0);
+background: #000;
 }
 
 /* ----header section start here----- */
@@ -23,11 +25,11 @@ body{
 header{
     width: 100%;
     height: 815px;
-    background-color: rgba(10, 10, 10,0.8);
+    background: linear-gradient(180.00deg, rgb(3, 0, 0),rgba(39, 37, 37, 0.795) 70%);
     color:#fff; 
 }
 
-header{
+.navbar{
     width: 85%;
     height: 55px;
     margin:auto; 
@@ -40,7 +42,7 @@ header{
 .logo{
 color: rgb(230, 83, 60);
 font-family: Inter;
-font-size: 2rem;
+font-size: 3rem;
 font-weight: 800;
 line-height: 120%;
 letter-spacing: 0%;
@@ -77,3 +79,93 @@ border-radius: 46px;
 
 background: rgb(230, 83, 60);
 }
+
+/* navbar end */
+
+/* header-content start */
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+
+width: 100%;
+
+}
+.header-content{
+width: 530px;
+height: 450px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding:0px; 
+margin: 100px 50px 10px 250px;
+}
+
+.header-title{
+    width: 530px;
+    height: 290px;
+    color:#fff; 
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: 30px 0px;
+}
+
+.header-subtitle{   width: 530px; 
+height: 50px;
+margin: 30px 0px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+
+.header-btn{
+width: 424px;
+height: 54px; 
+display: flex;
+flex-direction: row;
+margin:10px 30px 0px 230px; 
+}
+.btn{
+  width: 224px;
+height: 54px;  
+margin: 0px 5px;
+border-radius: 42px;
+color:#fff;
+font-weight: 600; 
+background: rgb(230, 83, 60);
+}
+#small-device-join{
+    display:none;
+}
+
+.download-btn{
+    background: #000;
+}
+
+#unique-font{
+    font-family: Dancing Script; 
+ font-weight:400;
+ font-size: 90px ;
+
+}
+
+.header-image{
+position: absolute;
+width: 359px;
+height: 590px;
+left: 1177px;
+top: 268px;
+}
+
+/* header section end  */
+
