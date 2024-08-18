@@ -439,7 +439,7 @@ width: 433px;
 height: 200px;
 left: -16px;
 top: 0;
-background:url(../images/exercise4.png),  rgba(204, 197, 197, 0.658);
+background:url(../images/exercise4.png),  rgba(177, 168, 168, 0.658);
 background-blend-mode: lighten;
 background-size: cover;          
 background-repeat: no-repeat;   
@@ -468,4 +468,223 @@ background-blend-mode: lighten;
 background-size: cover;          
 background-repeat: no-repeat;   
 background-position: center; 
+}
+
+
+/* BMI Section Start */
+
+
+.bmi-text-container{
+width: 671px;
+height: 120px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 14;
+padding: 0px;
+margin: 88px 0px 0px 430px;
+}
+
+.bmi-title{
+width: 353px;
+height: 58px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.bmi-subtitle{
+    width: 671px;
+height: 48px;
+margin: 35px 0px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+}
+
+.bmi-calculator-chart {
+    width: auto;
+    height: 550px;
+    background: rgb(34, 34, 34);
+    margin:88px 0px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmi-chart-left{
+    width: 550px;
+    height: 550px; 
+    margin:100px 200px 50px 100px; 
+}
+
+.bmi-chart-title{
+width: 463px;
+    height: 34px;
+    margin: 14px 0px;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 38px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+ .bmi-calculator-chart .bmi-chart-left .bmi-table{
+     width: 300px;
+     height: 250px;
+     border-collapse:collapse; 
+    margin: 75px 0px 0px 0px;
+    font-size: 18px;
+    text-align: center;
+}
+
+  .bmi-calculator-chart .bmi-chart-left .bmi-table tr{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+
+}
+ .bmi-calculator-chart .bmi-chart-left .bmi-table th{
+    color: #fff;
+}
+
+.bmi-calculation{
+width: 677px;
+height: 486px;
+left: 674px;
+top: 29px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 34;
+padding: 0px;
+
+}
+
+.bmi-calculation-title{
+width: 443px;
+height: 44px;
+color: rgb(255, 255, 255);
+margin-top: -33px;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 90%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.bmi-calculation-subtitle{
+ width: 577px;
+height: 48px;
+margin: 14px 0px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+margin: 50px 0px 50px 0px;
+}
+
+.bmi-form{
+  color:#fff; 
+ 
+}
+.bmi-btn{
+width: 282.5px;
+height: 48px;
+padding: 12px 40px 12px 20px;
+margin: 5px 8px;
+border-radius: 8px;
+color:#fff; 
+background: rgba(255, 255, 255, 0.1);
+
+}
+
+#full-btn{
+    width: 88%;
+     margin-bottom: 45px;
+}
+
+/* Team Section Start  */
+
+.team-section{
+    width: 771px;
+height: 180px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 14;
+padding: 0px;
+margin: 58px auto;
+
+}
+
+.team-section-title{
+width: 464px;
+height: 58px;
+margin: 14px 0px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 800;
+line-height: 110%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+.team-section-subtitle{
+width: 600px;
+height: 50px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: center;
+margin-top: 35px;
+margin-left: -40px;
+}
+
+.team-members{
+width: 1130px;
+height: 618px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+border-radius: 18px;
+background: rgba(255, 255, 255, 0.1);
+margin-left: 380px;
+}
+
+.team-members-img{
+width: 336.67px;
+height: 272px;
+margin: 15px 15px;
+border-radius: 18px;
+gap: 20;
+background: rgba(0, 0, 0, 0.2),url(image);
 }
