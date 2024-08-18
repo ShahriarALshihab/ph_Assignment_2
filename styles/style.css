@@ -273,3 +273,199 @@ align-items: center;
 padding-right: 0px;
 
 }
+
+.run-extra-mile{
+width: 1360px;
+height: 391px;
+border-radius: 18px;
+background: rgb(34, 34, 34);
+margin: 62px  0px 0px 270px;
+display: flex;
+flex-direction: row;
+}
+
+.text-card{
+display: flex;
+flex-direction: column;
+width: 500px;
+height:330px;
+margin:5px 20px 45px 90px ;
+
+}
+
+.run-extra-mile-text{
+width: 343px;
+height: 116px;
+gap: 14;
+padding-left: 1px;
+padding-top: 20px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 34px;
+}
+
+.run-extra-mile-subtitle{
+width: 443px;
+height: 72px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+padding-left: 1px;
+margin-bottom: 33px;
+margin-top: 10px;
+}
+
+.img-card{
+width: 390px;
+height: 322px; 
+border-radius: 18px;
+
+background-image: url(../images/run.jpg); 
+background-size: cover;          
+ background-repeat: no-repeat;   
+background-position: center; 
+margin:45px 0px 0px 290px 
+}
+
+  /* Trainings And Exercise  start*/
+
+
+
+.training-exercise-section{
+ width: 1200px;
+height: 255px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+margin-left: 30px;
+}
+
+.training-exercise-text{
+width: 671px;
+height: 120px;
+margin: 58px 0px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 14;
+padding: 0px;
+}
+
+.training-section-title{
+width: 673px;
+height: 68px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.training-section-subtitle{width: 671px;
+height: 48px;
+gap: 14;
+padding-left: 10px;
+margin-top: 32px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+}
+
+.training-img-section{
+    width: 1200px;
+    height: 400px; 
+    color:#000; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 325px;
+}
+.img-1{
+width: 323px;
+height: 200px;
+left: -16px;
+top: 0;
+background:url(../images/exercise1.jpg),  rgba(20, 252, 213, 0.5);
+background-blend-mode: lighten;
+background-size: cover;          
+background-repeat: no-repeat;   
+background-position: center; 
+}
+
+.img-2{
+width: 553px;
+height: 200px;
+left: -16px;
+top: 0;
+background:url(../images/exercise2.png),  rgba(197, 138, 138, 0.5);
+background-blend-mode: lighten;
+background-size: cover;          
+background-repeat: no-repeat;   
+background-position: center; 
+}
+
+.img-3{
+width: 324px;
+height: 200px;
+left: -16px;
+top: 0;
+background:url(../images/exercise3.png),  rgba(194, 179, 179, 0.534);
+background-blend-mode: lighten;
+background-size: cover;          
+background-repeat: no-repeat;   
+background-position: center; 
+}
+
+.img-4{
+width: 433px;
+height: 200px;
+left: -16px;
+top: 0;
+background:url(../images/exercise4.png),  rgba(204, 197, 197, 0.658);
+background-blend-mode: lighten;
+background-size: cover;          
+background-repeat: no-repeat;   
+background-position: center; 
+}
+
+.img-5{
+width: 350px;
+height: 200px;
+left: -16px;
+top: 0;
+background:url(../images/exercise5.jpg),  rgba(139, 245, 129, 0.5);
+background-blend-mode: lighten;
+background-size: cover;          
+background-repeat: no-repeat;   
+background-position: center; 
+}
+
+.img-6{
+width: 417px;
+height: 200px;
+left: -16px;
+top: 0;
+background:url(../images/exercise6.jpg),  rgba(140, 165, 229, 0.6);
+background-blend-mode: lighten;
+background-size: cover;          
+background-repeat: no-repeat;   
+background-position: center; 
+}
